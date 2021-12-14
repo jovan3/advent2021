@@ -1,7 +1,7 @@
+import input
+
 def parse_input():
-    with open('inputs/day1') as file:
-        lines = file.readlines()
-        return [int(line) for line in lines]
+    return [int(line) for line in input.get_lines('day1')]
 
 parsed_input = parse_input()
     
