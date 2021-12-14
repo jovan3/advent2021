@@ -1,2 +1,4 @@
 inputs/day*
 *~
+*.pyc
+__pycache__
